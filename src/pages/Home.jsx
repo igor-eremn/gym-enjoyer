@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <Box>
       <HomeBanner />
-      <SearchExercises />
+      <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
     </Box>
   );
 };
